@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Word_Game</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="header">
+            Word Game
+        </h1>
+        <div class="main">
+            <div class="firstsmell">
+                <div class="time">Time: <p class="timeorder"></p></div>
+                <div class="score">Score: <p class="sumscore">10</p></div>
+                <button class="start">Start</button>
+            </div>
+            
+            <div class="centersmell">
+                <div class="gameabout">
+                    <p class="aboutheader">How To Play</p>
+                    <ul class="aboutlist">
+                        <li>Click the start button  to begin</li>
+                        <li>Find as many words as you can </li>
+                        <li>You have only 30 seconds for each word</li>
+                        <li>If you want to change the words click the "Next Word" button</li>
+                    </ul>
+                </div>
+                <div class="wordmain">
+                    <div class="input">
+
+                        <div class="words"></div>
+                    </div>
+
+                    <div class="letters">
+                    </div>
+                </div>
+                
+                <div class="lastsmell">
+                    <button class="nextword">Next word</button>
+                    <button class="hint">Hint</button>
+                    <div class="hintbox">X</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    
+    <script src="wordgm.js"></script>
+</body>
+</html>
